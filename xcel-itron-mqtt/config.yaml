@@ -19,7 +19,6 @@ options:
   host:
   username:
   password:
-  port:
   meter_ip:
   meter_port: 8081
   cert_dir: /config/certs
