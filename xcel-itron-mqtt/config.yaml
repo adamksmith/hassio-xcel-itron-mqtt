@@ -29,7 +29,7 @@ schema:
   host: str
   username: str
   password: str
-  port: port?
+  port: port
   meter_ip: str
   meter_port: port
   ldfi: str?
