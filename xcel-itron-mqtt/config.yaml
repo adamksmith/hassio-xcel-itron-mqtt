@@ -19,6 +19,7 @@ options:
   host:
   username:
   password:
+  port: 1883
   meter_ip:
   meter_port: 8081
   cert_dir: /config/certs
@@ -28,7 +29,7 @@ schema:
   host: str
   username: str
   password: str
-  port: port?
+  port: str?
   meter_ip: str
   meter_port: port
   ldfi: str?
