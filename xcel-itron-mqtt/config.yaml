@@ -10,8 +10,6 @@ arch:
   - armv7
   - i386
 init: false
-services:
-  - mqtt:need
 panel_icon: mdi:meter-electric-outline
 map:
   - addon_config:rw
@@ -19,7 +17,7 @@ options:
   host:
   username:
   password:
-  port: 1883
+  #port: 1883
   meter_ip:
   meter_port: 8081
   cert_dir: /config/certs
@@ -29,7 +27,7 @@ schema:
   host: str
   username: str
   password: str
-  port: str?
+  #port: str?
   meter_ip: str
   meter_port: port
   ldfi: str?
